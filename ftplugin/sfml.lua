@@ -7,4 +7,5 @@ vim.bo.tabstop = 4
 vim.bo.softtabstop = 4
 
 -- Folding based on blocks (EVERY...END, IF...END)
-vim.bo.foldmethod = "syntax"
+vim.wo.foldmethod = "syntax"
+vim.wo.foldlevel = 99
